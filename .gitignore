@@ -9,3 +9,6 @@ __pycache__/
 
 # VSCode
 .vscode/
+
+# mypy
+.mypy_cache/
