@@ -1,20 +1,13 @@
 import random
-
-
-ABILITIES = [
-    "strength",
-    "dexterity",
-    "constitution",
-    "intelligence",
-    "wisdom",
-    "charisma",
-]
+from dataclasses import dataclass, fields
+from functools import cached_property
 
 
 def modifier(constitution: int) -> int:
     return round((constitution - 10) / 2 - 0.1)
 
 
+@dataclass
 class Character:
     strength: int
     dexterity: int
@@ -24,8 +17,8 @@ class Character:
     charisma: int
 
     def __init__(self) -> None:
-        for ability in ABILITIES:
-            setattr(self, ability, self.generate_stat())
+        for field in fields(self):
+            setattr(self, field.name, self.generate_stat())
 
     @staticmethod
     def generate_stat() -> int:
@@ -33,8 +26,9 @@ class Character:
         return sum(throws) - min(throws)
 
     def ability(self) -> int:
-        return getattr(self, random.choice(ABILITIES))
+        field_names = [field.name for field in fields(self)]
+        return getattr(self, random.choice(field_names))
 
-    @property
+    @cached_property
     def hitpoints(self) -> int:
         return 10 + modifier(self.constitution)
