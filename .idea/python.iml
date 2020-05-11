@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/dnd-character" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/gigasecond" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hello-world" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/leap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/reverse-string" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rna-transcription" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/space-age" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/yacht" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/darts" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/resistor-color" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/resistor-color-duo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/two-fer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pangram" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/robot-name" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/protein-translation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raindrops" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/armstrong-numbers" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.8 (exercism)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
