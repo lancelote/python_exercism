@@ -19,6 +19,7 @@
       <sourceFolder url="file://$MODULE_DIR$/protein-translation" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/raindrops" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/armstrong-numbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/high-scores" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.8 (exercism)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
