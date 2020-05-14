@@ -9,4 +9,4 @@ def slices(series: str, length: int) -> List[str]:
     if length > len(series):
         raise ValueError(f"length {length} is larger than series '{series}'")
 
-    return [series[i : i + length] for i in range(0, len(series) - length + 1)]
+    return [series[i : i + length] for i in range(len(series) - length + 1)]
