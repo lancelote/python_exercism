@@ -22,6 +22,7 @@
       <sourceFolder url="file://$MODULE_DIR$/high-scores" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/series" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/perfect-numbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/phone-number" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.8 (exercism)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
