@@ -25,6 +25,7 @@
       <sourceFolder url="file://$MODULE_DIR$/phone-number" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/matrix" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/isbn-verifier" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/difference-of-squares" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.8 (exercism)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
