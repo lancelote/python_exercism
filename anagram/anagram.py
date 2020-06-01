@@ -3,7 +3,7 @@ from collections import Counter
 
 
 def is_anagram(word1: str, word2: str) -> bool:
-    return word1 == word2 and Counter(word1) == Counter(word2)
+    return word1 != word2 and Counter(word1) == Counter(word2)
 
 
 def find_anagrams(reference: str, candidates: List[str]) -> List[str]:
