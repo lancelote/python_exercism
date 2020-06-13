@@ -11,10 +11,13 @@ def saddle_points(matrix: List[List[int]]) -> List[Dict[str, int]]:
     """
     points: List[Dict[str, int]] = []
 
+    row_max = [max(row) for row in matrix]
+    col_mins = [min(col) for col in zip(*matrix)]
+
     try:
         for i, row in enumerate(matrix):
             for j, item in enumerate(row):
-                if max(row) == item & min(row[j] for row in matrix) == item:
+                if row_max[i] == item & col_mins[j] == item:
                     points.append({"row": i + 1, "column": j + 1})
         return points
     except IndexError:
