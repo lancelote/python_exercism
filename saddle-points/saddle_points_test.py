@@ -77,7 +77,7 @@ class SaddlePointsTest(unittest.TestCase):
             sorted_points([{"row": 1, "column": 3}, {"row": 1, "column": 1}]),
         )
 
-    def test_can_identify_that_saddle_points_in_a_single_column_matrix_are_those_with_the_minimum_value(
+    def test_saddle_points_in_one_column_matrix_are_with_the_minimum_value(
         self,
     ):
         matrix = [[2], [1], [4], [1]]
@@ -86,7 +86,7 @@ class SaddlePointsTest(unittest.TestCase):
             sorted_points([{"row": 2, "column": 1}, {"row": 4, "column": 1}]),
         )
 
-    def test_can_identify_that_saddle_points_in_a_single_row_matrix_are_those_with_the_maximum_value(
+    def test_saddle_points_in_one_row_matrix_are_those_with_the_maximum_value(
         self,
     ):
         matrix = [[2, 5, 3, 5]]
