@@ -29,6 +29,7 @@
       <sourceFolder url="file://$MODULE_DIR$/anagram" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/saddle-points" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/palindrome-products" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/triangle" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.9 (exercism)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
