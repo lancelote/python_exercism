@@ -3,9 +3,7 @@ from typing import List
 
 def is_valid(triangle: List[float]) -> bool:
     """Sides are not 0 and the longest one is less than the sum of others."""
-    return all(
-        [set(triangle) != {0}, sum(triangle) - max(triangle) > max(triangle)]
-    )
+    return set(triangle) != {0} and sum(triangle) > max(triangle) * 2
 
 
 def equilateral(triangle: List[float]) -> bool:
@@ -25,4 +23,4 @@ def scalene(triangle: List[float]) -> bool:
 
 def degenerate(triangle: List[float]) -> bool:
     """Has zero area."""
-    return sum(triangle) - max(triangle) == max(triangle)
+    return sum(triangle) == 2 * max(triangle)
