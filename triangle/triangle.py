@@ -1,9 +1,11 @@
 from typing import List
 
 
-def is_valid(sides: List[float]) -> bool:
+def is_valid(triangle: List[float]) -> bool:
     """Sides are not 0 and the longest one is less than the sum of others."""
-    return set(sides) != {0} and sum(sides) - max(sides) > max(sides)
+    return all(
+        [set(triangle) != {0}, sum(triangle) - max(triangle) > max(triangle)]
+    )
 
 
 def equilateral(triangle: List[float]) -> bool:
@@ -19,3 +21,8 @@ def isosceles(triangle: List[float]) -> bool:
 def scalene(triangle: List[float]) -> bool:
     """All sides of a different length."""
     return len(set(triangle)) == 3 and is_valid(triangle)
+
+
+def degenerate(triangle: List[float]) -> bool:
+    """Has zero area."""
+    return sum(triangle) - max(triangle) == max(triangle)

@@ -1,6 +1,6 @@
 import unittest
 
-from triangle import equilateral, isosceles, scalene
+from triangle import degenerate, equilateral, isosceles, scalene
 
 # Tests adapted from `problem-specifications//canonical-data.json` @ v1.2.1
 
@@ -66,6 +66,11 @@ class ScaleneTriangleTest(unittest.TestCase):
 
     def test_sides_may_be_floats(self):
         self.assertIs(scalene([0.5, 0.4, 0.6]), True)
+
+
+class DegenerateTest(unittest.TestCase):
+    def test_basic_case(self):
+        self.assertIs(degenerate([1, 1, 2]), True)
 
 
 if __name__ == "__main__":
