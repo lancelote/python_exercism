@@ -18,7 +18,9 @@ class MatrixTest(unittest.TestCase):
         matrix = Matrix("1 2\n10 20")
         self.assertEqual(matrix.row(2), [10, 20])
 
-    def test_can_extract_row_from_non_square_matrix(self,):
+    def test_can_extract_row_from_non_square_matrix(
+        self,
+    ):
         matrix = Matrix("1 2 3\n4 5 6\n7 8 9\n8 7 6")
         self.assertEqual(matrix.row(4), [8, 7, 6])
 
@@ -30,7 +32,9 @@ class MatrixTest(unittest.TestCase):
         matrix = Matrix("1 2 3\n4 5 6\n7 8 9")
         self.assertEqual(matrix.column(3), [3, 6, 9])
 
-    def test_can_extract_column_from_non_square_matrix(self,):
+    def test_can_extract_column_from_non_square_matrix(
+        self,
+    ):
         matrix = Matrix("1 2 3 4\n5 6 7 8\n9 8 7 6")
         self.assertEqual(matrix.column(4), [4, 8, 6])
 
