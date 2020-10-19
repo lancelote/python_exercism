@@ -1,3 +1,5 @@
+from typing import List
+
 COLORS = {
     "black": 0,
     "brown": 1,
@@ -12,9 +14,9 @@ COLORS = {
 }
 
 
-def color_code(color):
+def color_code(color: str) -> int:
     return COLORS[color]
 
 
-def colors():
+def colors() -> List[str]:
     return list(COLORS.keys())

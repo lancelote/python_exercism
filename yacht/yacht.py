@@ -1,4 +1,5 @@
 from collections import Counter
+from typing import List
 
 YACHT = 0
 ONES = 1
@@ -14,7 +15,7 @@ BIG_STRAIGHT = 10
 CHOICE = 11
 
 
-def score(dice, category):
+def score(dice: List[int], category: int):
     total = 0
 
     if category == YACHT:
