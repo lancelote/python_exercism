@@ -1,7 +1,7 @@
 def response(hey_bob: str) -> str:
     phrase = hey_bob.strip()
 
-    if len(phrase) == 0:
+    if not phrase:
         return "Fine. Be that way!"
     if phrase.isupper():
         if phrase.endswith("?"):
