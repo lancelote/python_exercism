@@ -1,5 +1,6 @@
 import random
-from dataclasses import dataclass, fields
+from dataclasses import dataclass
+from dataclasses import fields
 from functools import cached_property
 
 

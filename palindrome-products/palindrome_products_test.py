@@ -1,6 +1,7 @@
 import unittest
 
-from palindrome_products import largest, smallest
+from palindrome_products import largest
+from palindrome_products import smallest
 
 # Tests adapted from `problem-specifications//canonical-data.json` @ v1.2.0
 

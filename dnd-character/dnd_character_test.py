@@ -1,6 +1,7 @@
 import unittest
 
-from dnd_character import Character, modifier
+from dnd_character import Character
+from dnd_character import modifier
 
 # Tests adapted from `problem-specifications//canonical-data.json` @ v1.1.0
 

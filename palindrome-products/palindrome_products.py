@@ -1,4 +1,7 @@
-from typing import List, Tuple, Optional, Iterator
+from typing import Iterator
+from typing import List
+from typing import Optional
+from typing import Tuple
 
 Factors = Tuple[int, int]
 Report = Tuple[Optional[int], List[Factors]]

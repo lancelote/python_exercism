@@ -1,6 +1,9 @@
 import unittest
 
-from triangle import degenerate, equilateral, isosceles, scalene
+from triangle import degenerate
+from triangle import equilateral
+from triangle import isosceles
+from triangle import scalene
 
 # Tests adapted from `problem-specifications//canonical-data.json` @ v1.2.1
 

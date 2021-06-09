@@ -1,10 +1,8 @@
 import unittest
 
-from difference_of_squares import (
-    difference_of_squares,
-    square_of_sum,
-    sum_of_squares,
-)
+from difference_of_squares import difference_of_squares
+from difference_of_squares import square_of_sum
+from difference_of_squares import sum_of_squares
 
 # Tests adapted from `problem-specifications//canonical-data.json` @ v1.2.0
 

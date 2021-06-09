@@ -1,6 +1,7 @@
 import unittest
 
-from grains import square, total
+from grains import square
+from grains import total
 
 # Tests adapted from `problem-specifications//canonical-data.json` @ v1.2.0
 

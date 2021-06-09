@@ -1,7 +1,8 @@
-from typing import List, Dict
 from enum import Enum
 from itertools import takewhile
 from textwrap import wrap
+from typing import Dict
+from typing import List
 
 Codon = str
 

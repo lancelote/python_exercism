@@ -1,6 +1,6 @@
 import re
-from typing import Dict
 from collections import Counter
+from typing import Dict
 
 
 def count_words(sentence: str) -> Dict[str, int]:

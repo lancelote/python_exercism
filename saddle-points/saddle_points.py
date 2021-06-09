@@ -1,4 +1,5 @@
-from typing import List, Dict
+from typing import Dict
+from typing import List
 
 
 def saddle_points(matrix: List[List[int]]) -> List[Dict[str, int]]:

@@ -1,6 +1,6 @@
+from itertools import product
 from random import sample
 from string import ascii_uppercase
-from itertools import product
 from typing import Generator
 
 

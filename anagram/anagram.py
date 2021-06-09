@@ -1,5 +1,5 @@
-from typing import List
 from collections import Counter
+from typing import List
 
 
 def is_anagram(word1: str, word2: str) -> bool:

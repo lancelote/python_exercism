@@ -1,6 +1,7 @@
 import unittest
 
-from resistor_color import color_code, colors
+from resistor_color import color_code
+from resistor_color import colors
 
 # Tests adapted from `problem-specifications//canonical-data.json` @ v1.0.0
 
